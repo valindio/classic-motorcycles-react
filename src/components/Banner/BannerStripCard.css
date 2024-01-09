@@ -1,0 +1,42 @@
+.banner__strip__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.banner__strip__card:nth-child(even) {
+  grid-auto-flow: dense;
+  direction: rtl;
+}
+
+.banner__strip__card div {
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: var(--header-font);
+  color: var(--color-white);
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+@media screen and (min-width: 480px) {
+  .banner__strip__card:nth-child(even) {
+    grid-auto-flow: unset;
+    direction: unset;
+  }
+
+  .banner__strip__card:nth-child(4n),
+  .banner__strip__card:nth-child(4n - 1) {
+    grid-auto-flow: dense;
+    direction: rtl;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner__strip__card:nth-child(4n),
+  .banner__strip__card:nth-child(4n - 1) {
+    grid-auto-flow: unset;
+    direction: unset;
+  }
+}
