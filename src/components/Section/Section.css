@@ -1,19 +1,9 @@
 .section__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
   margin: auto;
-  padding: 5rem 1rem;
+  padding: 1rem 1rem;
   max-width: 1200px;
-  height: 100vh;
-  font-family: var(--header-font);
-  color: var(--color-white);
   overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
-  .section__container {
-    height: calc(100vh - 135px);
-  }
 }
