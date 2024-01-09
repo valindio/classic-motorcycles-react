@@ -20,10 +20,14 @@
   --max-width: 1200px;
 
   /* Fonts */
-  --main-font: "Poppins", sans-serif;
+  --body-font: "Poppins", sans-serif;
   --header-font: "Oswald", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
 }
