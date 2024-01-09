@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Feature from "./components/Feature/Feature";
 import Blog from "./components/Blog/Blog";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Section forSection={"instagram__container"}>
         <SocialMedia />
       </Section>
+      <Footer />
     </>
   );
 }
