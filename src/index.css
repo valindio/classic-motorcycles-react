@@ -5,3 +5,21 @@
 @import "./styles/reduce-motion.css";
 @import "./styles/system-ui.css";
 @import "./styles/ui-monospace.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Color */
+  --primary-color: #161616;
+  --text-dark: #000000;
+  --text-light: #767268;
+  --text-extralight: #f3f4f6;
+  --color-white: #ffffff;
+
+  /* Max Website Width */
+  --max-width: 1200px;
+
+  /* Fonts */
+  --main-font: "Poppins", sans-serif;
+  --header-font: "Oswald", sans-serif;
+}
