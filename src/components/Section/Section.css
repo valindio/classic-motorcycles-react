@@ -39,5 +39,9 @@
   right: 100%;
 }
 
+.section__description {
+  color: var(--text-light);
+}
+
 @media screen and (min-width: 768px) {
 }
