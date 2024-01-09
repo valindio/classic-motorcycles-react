@@ -31,3 +31,8 @@ html {
 body {
   font-family: var(--body-font);
 }
+
+a {
+  color: var(--color-white);
+  text-decoration: none;
+}
