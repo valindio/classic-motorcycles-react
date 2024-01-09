@@ -5,5 +5,39 @@
   overflow: hidden;
 }
 
+.section__header {
+  position: relative;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  padding-inline: 1rem;
+  width: fit-content;
+  font-size: 2rem;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.section__header::after,
+.section__header::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  border-top: 1px solid var(--text-light);
+  border-bottom: 1px solid var(--text-light);
+  width: 100%;
+  max-width: 100px;
+  height: 5px;
+  transform: translateY(-50%);
+}
+
+.section__header::before {
+  left: 100%;
+}
+
+.section__header::after {
+  right: 100%;
+}
+
 @media screen and (min-width: 768px) {
 }
