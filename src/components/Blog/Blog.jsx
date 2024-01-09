@@ -1,6 +1,5 @@
 import "./Blog.css";
 import BlogCard from "./BlogCard";
-
 import { dataBlog } from "../../data/blog";
 
 const Blog = () => {

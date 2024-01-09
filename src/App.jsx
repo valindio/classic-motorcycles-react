@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import About from "./components/About/About";
 import Feature from "./components/Feature/Feature";
 import Blog from "./components/Blog/Blog";
+import SocialMedia from "./components/SocialMedia/SocialMedia";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       <Feature />
       <Section forSection={"blog__container"}>
         <Blog />
+      </Section>
+      <Section forSection={"instagram__container"}>
+        <SocialMedia />
       </Section>
     </>
   );
