@@ -23,3 +23,7 @@
   --main-font: "Poppins", sans-serif;
   --header-font: "Oswald", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
