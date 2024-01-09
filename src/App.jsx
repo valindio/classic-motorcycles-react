@@ -3,6 +3,7 @@ import Section from "./components/Section/Section";
 import Banner from "./components/Banner/Banner";
 import About from "./components/About/About";
 import Feature from "./components/Feature/Feature";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         <About />
       </Section>
       <Feature />
+      <Section forSection={"blog__container"}>
+        <Blog />
+      </Section>
     </>
   );
 }
